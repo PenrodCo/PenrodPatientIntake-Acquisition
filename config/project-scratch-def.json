@@ -1,5 +1,20 @@
 {
-  "orgName": "webapp company",
-  "edition": "Developer",
-  "features": []
-}
+    "orgName": "PAI Scratch",
+    "country": "US",
+    "edition": "Developer",
+    "description": "Disposable scratch org with PAI solution installed",
+    "features": [
+        "HealthCloudAddon",
+        "PersonAccounts",
+        "ContactsToMultipleAccounts",
+        "StateAndCountryPicklist"
+    ],
+    "settings": {
+      "lightningExperienceSettings": {
+        "enableS1DesktopEnabled": true
+      },
+      "chatterSettings": {
+        "enableChatter": true
+      }
+    }
+  }
