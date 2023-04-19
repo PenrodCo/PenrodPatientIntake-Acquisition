@@ -16,10 +16,6 @@
             <outputField>HealthCloudGA__MedicalRecordNumber__c</outputField>
         </mappingFields>
         <mappingFields>
-            <inputField>Migration_Id__c</inputField>
-            <outputField>Migration_Id__c</outputField>
-        </mappingFields>
-        <mappingFields>
             <inputField>NPI__c</inputField>
             <outputField>NPI__c</outputField>
         </mappingFields>
@@ -72,10 +68,6 @@
             <outputField>HealthCloudGA__MedicalRecordNumber__c</outputField>
         </mappingFields>
         <mappingFields>
-            <inputField>Migration_Id__c</inputField>
-            <outputField>Migration_Id__c</outputField>
-        </mappingFields>
-        <mappingFields>
             <inputField>NPI__c</inputField>
             <outputField>NPI__c</outputField>
         </mappingFields>
@@ -110,10 +102,6 @@
         <mappingFields>
             <inputField>HealthCloudGA__InsuranceType__c</inputField>
             <outputField>HealthCloudGA__InsuranceType__c</outputField>
-        </mappingFields>
-        <mappingFields>
-            <inputField>Migration_Id__c</inputField>
-            <outputField>Migration_Id__c</outputField>
         </mappingFields>
         <mappingFields>
             <inputField>HealthCloudGA__IsOutOfNetwork__c</inputField>
