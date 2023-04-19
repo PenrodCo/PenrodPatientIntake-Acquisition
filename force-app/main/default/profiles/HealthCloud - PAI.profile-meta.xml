@@ -98,7 +98,7 @@
         <layout>UserAlt-User Profile Layout</layout>
     </layoutAssignments>
     <recordTypeVisibilities>
-        <default>false</default>
+        <default>true</default>
         <recordType>Case.Lead_Patient</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
