@@ -7,10 +7,12 @@
    Status_1_Date_Exited__c -  Status_1_Date_Entered__c
    )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Days at Status 1</label>
+    <inlineHelpText>The number of days a Lead has been &quot;New&quot; at the Working - Not Contacted Status</inlineHelpText>
+    <label>Days at New</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>
+    <trackHistory>false</trackHistory>
     <type>Number</type>
     <unique>false</unique>
 </CustomField>

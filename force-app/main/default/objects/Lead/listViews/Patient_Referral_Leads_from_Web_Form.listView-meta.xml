@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Patient_Referral_Leads_from_Web_Form</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>HealthCloudGA__Gender__c</columns>
+    <columns>HealthCloudGA__BirthDate__c</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.MOBILE_PHONE</columns>
+    <columns>HealthCloudGA__ReasonforReferral__c</columns>
+    <columns>HealthCloudGA__ReferringPractitioner__c</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.HealthCloudGA__PatientReferral</value>
+    </filters>
+    <filters>
+        <field>LEAD.LEAD_SOURCE</field>
+        <operation>equals</operation>
+        <value>Web</value>
+    </filters>
+    <label>Patient Referral Leads from Web Form</label>
+</ListView>

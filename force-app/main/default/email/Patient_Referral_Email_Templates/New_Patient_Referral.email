@@ -1,0 +1,6 @@
+Hi {!User.FirstName} {!Lead.OwnerFirstName}, 
+
+A new Patient Referral has been submitted. Please use the following link to view:
+
+
+{!Lead.Link}

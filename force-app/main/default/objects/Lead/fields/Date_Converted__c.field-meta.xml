@@ -5,5 +5,6 @@
     <label>Date Converted</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
     <type>Date</type>
 </CustomField>

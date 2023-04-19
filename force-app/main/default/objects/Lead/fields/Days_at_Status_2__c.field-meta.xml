@@ -8,10 +8,12 @@
    Status_2_Date_Exited__c - Status_2_Date_Entered__c
   )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Days at Status 2</label>
+    <inlineHelpText>The number of days a Lead has been &quot;Working&quot; at the Working - Contacted Status</inlineHelpText>
+    <label>Days at Working</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>
+    <trackHistory>false</trackHistory>
     <type>Number</type>
     <unique>false</unique>
 </CustomField>

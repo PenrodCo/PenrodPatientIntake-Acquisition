@@ -5,5 +5,6 @@
     <label>Status 2 Date Entered</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Date</type>
 </CustomField>
