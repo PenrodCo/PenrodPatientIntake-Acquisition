@@ -229,10 +229,6 @@
         <recordType>Opportunity.HealthCloudGA__Patient_Referral</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Opportunity-Sales Base Layout</layout>
-        <recordType>Opportunity.Sales_Base</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>PersonAccount-Guardian%2FContact - Foundations</layout>
         <recordType>PersonAccount.Guardian_Contact</recordType>
     </layoutAssignments>
