@@ -13,15 +13,14 @@
           "package": "HealthCloud@241.1.0.0"
         },
         {
-      "package": "Penrod HC Foundations",
-      "versionNumber": "0.1.0.LATEST"
+      "package": "Penrod HC Foundations@0.1.0-2"
         }
       ]
     }
   ],
   "packageAliases": {
     "HealthCloud@241.1.0.0": "04t4W000002V1qA",
-    "Penrod HC Foundations": "0HoDn000000oLyJKAU",
+    "Penrod HC Foundations@0.1.0-2": "04tDn000000eLO6IAM",
     "PenrodPAI": "0HoDn000000oLyOKAU"
   }
 }
