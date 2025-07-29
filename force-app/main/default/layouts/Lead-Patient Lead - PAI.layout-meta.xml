@@ -28,15 +28,11 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>HealthCloudGA__Gender__c</field>
+                <field>GenderIdentity</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>HealthCloudGA__BirthDate__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>HealthCloudGA__MedicalRecordNumber__c</field>
+                <field>pai_Subscriber_Date_of_Birth__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
@@ -90,92 +86,49 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Insurance &amp; Referral Information</label>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>HealthCloudGA__InsuranceType__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>HealthCloudGA__InsuranceGroupId__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>HealthCloudGA__InsuranceMemberId__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>HealthCloudGA__PrimaryInsurance__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>HealthCloudGA__SecondaryInsurance__c</field>
-            </layoutItems>
-        </layoutColumns>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>HealthCloudGA__ReferringOrganization__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>HealthCloudGA__ReasonforReferral__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>HealthCloudGA__ReasonForDisqualification__c</field>
-            </layoutItems>
-        </layoutColumns>
-        <style>TwoColumnsLeftToRight</style>
-    </layoutSections>
-    <layoutSections>
-        <customLabel>true</customLabel>
-        <detailHeading>true</detailHeading>
-        <editHeading>true</editHeading>
         <label>Lead Metrics</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Status_1_Date_Entered__c</field>
+                <field>pai_Status_1_Date_Entered__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Status_1_Date_Exited__c</field>
+                <field>pai_Status_1_Date_Exited__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Status_2_Date_Entered__c</field>
+                <field>pai_Status_2_Date_Entered__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Status_2_Date_Exited__c</field>
+                <field>pai_Status_2_Date_Exited__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Date_Disqualified__c</field>
+                <field>pai_Date_Disqualified__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Date_Converted__c</field>
+                <field>pai_Date_Converted__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Days_at_Status_1__c</field>
+                <field>pai_Days_at_Status_1__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Days_at_Status_2__c</field>
+                <field>pai_Days_at_Status_2__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Days_Until_Disqualification__c</field>
+                <field>pai_Days_Until_Disqualification__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Days_Until_Conversion__c</field>
+                <field>pai_Days_Until_Conversion__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

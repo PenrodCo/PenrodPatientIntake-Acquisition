@@ -33,15 +33,11 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>HealthCloudGA__Gender__pc</field>
+                <field>PersonGenderIdentity</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>PersonBirthdate</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>NPI__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
@@ -288,36 +284,6 @@
         </relatedContentItems>
     </relatedContent>
     <relatedLists>
-        <fields>FULL_NAME</fields>
-        <fields>HealthCloudGA__Gender__c</fields>
-        <fields>HealthCloudGA__BirthDate__c</fields>
-        <fields>LEAD.EMAIL</fields>
-        <fields>LEAD.PHONE</fields>
-        <fields>LEAD.MOBILE_PHONE</fields>
-        <fields>LEAD.LEAD_SOURCE</fields>
-        <relatedList>Lead.HealthCloudGA__PrimaryCareProvider__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>FULL_NAME</fields>
-        <fields>HealthCloudGA__Gender__c</fields>
-        <fields>HealthCloudGA__BirthDate__c</fields>
-        <fields>LEAD.EMAIL</fields>
-        <fields>LEAD.PHONE</fields>
-        <fields>LEAD.MOBILE_PHONE</fields>
-        <fields>LEAD.LEAD_SOURCE</fields>
-        <relatedList>Lead.HealthCloudGA__ReferringPractitioner__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>OPPORTUNITY.NAME</fields>
-        <fields>ACCOUNT.NAME</fields>
-        <fields>OPPORTUNITY.CLOSE_DATE</fields>
-        <relatedList>Opportunity.HealthCloudGA__ReferringPractitioner__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>HealthCloudGA__ContactContactRelation__c.HealthCloudGA__RelatedContact__c</relatedList>
-    </relatedLists>
-    <relatedLists>
         <fields>Name</fields>
         <fields>Type</fields>
         <fields>SubType</fields>
@@ -342,14 +308,6 @@
         <relatedList>RelatedHCFNetworkPaList</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>NAME</fields>
-        <fields>HealthCloudGA__RelatedAccount__c</fields>
-        <fields>HealthCloudGA__Role__c</fields>
-        <fields>HealthCloudGA__Active__c</fields>
-        <fields>CREATED_DATE</fields>
-        <relatedList>HealthCloudGA__AccountAccountRelation__c.HealthCloudGA__Account__c</relatedList>
-    </relatedLists>
-    <relatedLists>
         <fields>CONTACT.FULL_NAME</fields>
         <fields>CONTACT.ACCOUNT_NAME</fields>
         <fields>CONTACT.TITLE</fields>
@@ -360,7 +318,6 @@
     </relatedLists>
     <relatedLists>
         <fields>OPPORTUNITY.NAME</fields>
-        <fields>OPPORTUNITY.RECORDTYPE</fields>
         <fields>OPPORTUNITY.STAGE_NAME</fields>
         <fields>OPPORTUNITY.AMOUNT</fields>
         <fields>OPPORTUNITY.CLOSE_DATE</fields>
@@ -468,12 +425,6 @@
         <fields>CORE.USERS.FULL_NAME</fields>
         <fields>TASK.LAST_UPDATE</fields>
         <relatedList>RelatedHistoryList</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>OPPORTUNITY.NAME</fields>
-        <fields>ACCOUNT.NAME</fields>
-        <fields>OPPORTUNITY.CLOSE_DATE</fields>
-        <relatedList>Opportunity.HealthCloudGA__ReferringOrganization__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>ACTIVITY.SUBJECT</fields>

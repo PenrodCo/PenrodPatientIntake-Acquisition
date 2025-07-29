@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PAI_Patient_Referral</fullName>
+    <fields>Name</fields>
+    <fields>Status</fields>
+    <fields>GenderIdentity</fields>
+    <fields>pai_Subscriber_Date_of_Birth__c</fields>
+    <fields>Email</fields>
+    <fields>Phone</fields>
+    <fields>MobilePhone</fields>
+    <label>Patient Referral - PAI</label>
+</CompactLayout>

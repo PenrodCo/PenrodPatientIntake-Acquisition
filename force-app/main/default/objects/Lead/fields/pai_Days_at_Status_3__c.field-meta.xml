@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pai_Days_at_Status_3__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+   ISBLANK(pai_Status_3_Date_Exited__c),
+   TODAY() - pai_Status_3_Date_Entered__c,
+   pai_Status_3_Date_Exited__c - pai_Status_3_Date_Entered__c
+  )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Days at Status 3</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

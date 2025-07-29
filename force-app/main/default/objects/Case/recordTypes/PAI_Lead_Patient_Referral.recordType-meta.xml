@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PAI_Lead_Patient_Referral</fullName>
+    <active>true</active>
+    <businessProcess>PAI Patient Referral</businessProcess>
+    <label>Lead Patient Referral</label>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email-to-Case Patient</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email-to-Case Patient Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
