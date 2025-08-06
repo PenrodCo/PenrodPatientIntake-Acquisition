@@ -76,12 +76,6 @@
             </value>
         </inputAssignments>
         <inputAssignments>
-            <field>pai_Subscriber_Date_of_Birth__c</field>
-            <value>
-                <elementReference>Birth_Date</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
             <field>GenderIdentity</field>
             <value>
                 <elementReference>Gender</elementReference>
@@ -139,6 +133,12 @@
             <field>Street</field>
             <value>
                 <elementReference>Address.street</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>pai_Subscriber_Date_of_Birth__c</field>
+            <value>
+                <elementReference>Birth_Date</elementReference>
             </value>
         </inputAssignments>
         <object>Lead</object>

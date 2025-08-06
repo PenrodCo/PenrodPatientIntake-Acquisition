@@ -5,6 +5,5 @@
     <label>Status 2 Date Exited</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
     <type>Date</type>
 </CustomField>

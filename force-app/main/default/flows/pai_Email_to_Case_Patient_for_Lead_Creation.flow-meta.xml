@@ -37,7 +37,7 @@
         <name>Create_Patient_Lead</name>
         <label>Create Patient Lead</label>
         <locationX>308</locationX>
-        <locationY>528</locationY>
+        <locationY>492</locationY>
         <connector>
             <targetReference>Delete_Case</targetReference>
         </connector>
@@ -84,6 +84,12 @@
             </value>
         </inputAssignments>
         <inputAssignments>
+            <field>Phone</field>
+            <value>
+                <elementReference>$Record.SuppliedPhone</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>RecordTypeId</field>
             <value>
                 <elementReference>Find_Patient_Record_Type.Id</elementReference>
@@ -96,14 +102,14 @@
         <name>Delete_Case</name>
         <label>Delete Case</label>
         <locationX>308</locationX>
-        <locationY>648</locationY>
+        <locationY>600</locationY>
         <inputReference>$Record</inputReference>
     </recordDeletes>
     <recordLookups>
         <name>Find_Patient_Queue</name>
         <label>Find Patient Queue</label>
         <locationX>308</locationX>
-        <locationY>288</locationY>
+        <locationY>276</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Find_Patient_Record_Type</targetReference>
@@ -131,7 +137,7 @@
         <name>Find_Patient_Record_Type</name>
         <label>Find Patient Record Type</label>
         <locationX>308</locationX>
-        <locationY>408</locationY>
+        <locationY>384</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Create_Patient_Lead</targetReference>
@@ -148,7 +154,7 @@
             <field>DeveloperName</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>Patient</stringValue>
+                <stringValue>pf_Patient_Lead</stringValue>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
@@ -169,11 +175,11 @@
         <object>Case</object>
         <recordTriggerType>Create</recordTriggerType>
         <scheduledPaths>
-            <name>X0_min</name>
+            <name>Delay</name>
             <connector>
                 <targetReference>Find_Patient_Queue</targetReference>
             </connector>
-            <label>0 min</label>
+            <label>Delay</label>
             <offsetNumber>0</offsetNumber>
             <offsetUnit>Minutes</offsetUnit>
             <timeSource>RecordTriggerEvent</timeSource>

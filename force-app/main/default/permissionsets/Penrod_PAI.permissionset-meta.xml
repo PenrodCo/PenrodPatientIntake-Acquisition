@@ -171,11 +171,11 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>true</enabled>
-        <flow>pai_Email_to_Case_Patient_for_Lead_Creation</flow>
+        <flow>pai_Email_to_Case_Patient_Referral_for_Lead_Creation</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>true</enabled>
-        <flow>pai_Email_to_Case_Patient_Referral_for_Lead_Creation</flow>
+        <flow>pai_Email_to_Case_Patient_for_Lead_Creation</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>true</enabled>

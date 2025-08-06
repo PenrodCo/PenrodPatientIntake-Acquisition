@@ -18,7 +18,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>flowName</name>
-                    <value>PAI_Patient_Lead_Intake_Flow</value>
+                    <value>pai_Patient_Lead_Intake_Flow</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>height</name>
@@ -65,7 +65,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>flowName</name>
-                    <value>PAI_Patient_Referral_Intake_Flow</value>
+                    <value>pai_Patient_Referral_Intake_Flow</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>height</name>
